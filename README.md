@@ -14,3 +14,7 @@ The address is visible in logs:
 ## Implementing /api/update
 Setting metadata UPDATED_AT and UPDATED_BY is not done yet.   
 It wil be done later.
+
+
+## Documentation
+After adding the library, the swager page is accessible through address http://localhost:8080/swagger-ui/index.html.
