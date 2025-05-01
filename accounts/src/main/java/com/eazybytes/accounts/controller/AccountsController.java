@@ -51,6 +51,8 @@ public class AccountsController {
             @ApiResponse(
                     responseCode = "500",
                     description = "HTTP Status Internal Server Error",
+                    // without following snippet we would not see the ErrorResponse in the "Schemas" section
+                    // of the Swagger UI page
                     content = @Content(
                             schema = @Schema(implementation = ErrorResponseDto.class)
                     )
@@ -76,6 +78,8 @@ public class AccountsController {
             @ApiResponse(
                     responseCode = "500",
                     description = "HTTP Status Internal Server Error",
+                    // without following snippet we would not see the ErrorResponse in the "Schemas" section
+                    // of the Swagger UI page
                     content = @Content(
                             schema = @Schema(implementation = ErrorResponseDto.class)
                     )
@@ -105,6 +109,8 @@ public class AccountsController {
             @ApiResponse(
                     responseCode = "500",
                     description = "HTTP Status Internal Server Error",
+                    // without following snippet we would not see the ErrorResponse in the "Schemas" section
+                    // of the Swagger UI page
                     content = @Content(
                             schema = @Schema(implementation = ErrorResponseDto.class)
                     )
@@ -136,6 +142,8 @@ public class AccountsController {
             @ApiResponse(
                     responseCode = "500",
                     description = "HTTP Status Internal Server Error",
+                    // without following snippet we would not see the ErrorResponse in the "Schemas" section
+                    // of the Swagger UI page
                     content = @Content(
                             schema = @Schema(implementation = ErrorResponseDto.class)
                     )
