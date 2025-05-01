@@ -17,4 +17,8 @@ It wil be done later.
 
 
 ## Documentation
-After adding the library, the swager page is accessible through address http://localhost:8080/swagger-ui/index.html.
+After adding the library, the swagger page is accessible through address http://localhost:8080/swagger-ui/index.html.
+
+### Status 417 instead of 500 for UPDATE and DELETE operations
+We did it because of possible confusion with internal server error.
+https://github.com/spring-projects/spring-boot/issues/24315
