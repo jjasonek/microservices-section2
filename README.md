@@ -17,7 +17,10 @@ It wil be done later.
 
 
 ## Documentation
-After adding the library, the swagger page is accessible through address http://localhost:8080/swagger-ui/index.html.
+After adding the library, the swagger page is accessible through address 
+http://localhost:8080/swagger-ui/index.html,
+http://localhost:8090/swagger-ui/index.html,
+http://localhost:9000/swagger-ui/index.html.
 
 ### Status 417 instead of 500 for UPDATE and DELETE operations
 We did it because of possible confusion with internal server error.
